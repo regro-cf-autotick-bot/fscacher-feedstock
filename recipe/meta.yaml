@@ -1,5 +1,5 @@
 {% set name = "fscacher" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3a560253b5d6f8c00c1e1ff7b48731d59ce091544a13d4284c43c40b38ff6ffd
+  sha256: 88e1e540bed0ed25fa0c2684a0dd4f5c8fbbff093c79d3e8499e9d3693569221
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
