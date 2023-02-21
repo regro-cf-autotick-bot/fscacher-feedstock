@@ -1,5 +1,5 @@
 {% set name = "fscacher" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 989ab59e3d4aaa27de3ae29333528bb4570c8be624c22a4b40889f4b723f7dfb
+  sha256: a8c1443920d1189c07653f7be03f3ebab62194c4bf9536cd77b03ce7c89f834f
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >=3.7
     - appdirs
     - joblib
 
