@@ -1,11 +1,11 @@
-About fscacher
-==============
+About fscacher-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fscacher-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/con/fscacher
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fscacher-feedstock/blob/main/LICENSE.txt)
 
 Summary: Caching results of operations on heavy file trees
 
