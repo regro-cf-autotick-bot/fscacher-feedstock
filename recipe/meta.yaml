@@ -44,6 +44,7 @@ about:
     fscacher provides a cache & decorator for memoizing functions whose outputs
     depend upon the contents of a file argument.
   dev_url: https://github.com/con/fscacher
+  doc_url: https://pypi.org/project/fscacher/
 
 extra:
   recipe-maintainers:
