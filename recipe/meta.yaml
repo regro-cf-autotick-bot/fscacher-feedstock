@@ -1,5 +1,5 @@
 {% set name = "fscacher" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a8c1443920d1189c07653f7be03f3ebab62194c4bf9536cd77b03ce7c89f834f
+  sha256: 3bd842711b836fb04e5f639944d29d637bb5de16399a926a865cffb2a7f27ce4
 
 build:
   noarch: python
@@ -44,6 +44,7 @@ about:
     fscacher provides a cache & decorator for memoizing functions whose outputs
     depend upon the contents of a file argument.
   dev_url: https://github.com/con/fscacher
+  doc_url: https://pypi.org/project/fscacher/
 
 extra:
   recipe-maintainers:
